@@ -32,10 +32,11 @@ The server will start on:
 http://localhost:3000
 
 ## 📡 API Endpoints
-
+```
 POST   /signup       # Register a new user
 POST   /login        # Authenticate and get JWT token
 GET    /dashboard    # Protected route (requires Authorization header)
+```
 
 ## 🔐 Environment (Optional)
 
