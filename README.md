@@ -22,3 +22,6 @@ SkillReclaim is an authentication API built to support people in regaining relev
 ```bash
 npm install
 npm start
+
+The server will start on
+http://localhost:3000
