@@ -25,3 +25,27 @@ npm start
 
 The server will start on
 http://localhost:3000
+```
+
+
+The server will start on:
+
+http://localhost:3000
+
+## 📡 API Endpoints
+
+POST   /signup       # Register a new user
+POST   /login        # Authenticate and get JWT token
+GET    /dashboard    # Protected route (requires Authorization header)
+
+## 🔐 Environment (Optional)
+
+In a real app, secrets like the JWT key should be stored in a .env file:
+
+JWT_SECRET=your_super_secret_key
+
+(Currently hardcoded in index.js for simplicity.)
+
+
+Created by PealdanTech – 2025
+Powered by 💡 for SkillReclaim
